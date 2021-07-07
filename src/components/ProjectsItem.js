@@ -11,7 +11,7 @@ const Project = (props) => (
             <Header as='span'><Icon name='file code'/>{props.title}</Header>
         </Divider>
         <div className="row">
-            <div className="col-lg-4" data-aos="fade-right" data-aos-duration="2000">
+            <div className="col-lg-4 app-img" data-aos="fade-right" data-aos-duration="2000">
             <Image
                 fluid
                 label={{

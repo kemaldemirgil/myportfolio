@@ -36,9 +36,9 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <div className="container skills">
+                <div className="container-fluid skills">
                     <div className="row">
-                        <div className="col-lg-4 text-center skill-group">
+                        <div className="col-lg text-center skill-group">
                             <FontAwesomeIcon icon={faFileCode}/>
                             <p data-aos="fade-up">Languages</p>
                             <ul className="list-group" >
@@ -51,7 +51,7 @@ const About = () => {
                                 <li data-aos="fade-up-right">G Code</li>
                             </ul>
                         </div>
-                        <div className="col-lg-4 text-center skill-group">
+                        <div className="col-lg text-center skill-group">
                             <FontAwesomeIcon icon={faLaptopCode}/>
                             <p data-aos="fade-up">Frameworks / Libraries</p>
                             <ul className="list-group" >
@@ -70,7 +70,7 @@ const About = () => {
                                 <li data-aos="fade-up-right">Chart.js</li>
                             </ul>
                         </div>
-                        <div className="col-lg-4 text-center skill-group">
+                        <div className="col-lg text-center skill-group">
                             <FontAwesomeIcon icon={faCodeBranch}/>
                             <p data-aos="fade-up">Tools</p>
                             <ul className="list-group" >

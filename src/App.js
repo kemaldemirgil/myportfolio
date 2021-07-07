@@ -7,14 +7,14 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 
-import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import { HashRouter, Switch, Route} from 'react-router-dom';
 
 
 
 
 function App() {
   return (
-    <Router>
+    <HashRouter basename="/">
       <Navbar />
       <Switch>
         <Route path="/" exact component={Header} />
@@ -22,7 +22,7 @@ function App() {
         <Route path="/projects" component={Projects} />
         <Route path="/contact" component={Contact} />
       </Switch>
-    </Router>
+    </HashRouter>
   );
 }
 

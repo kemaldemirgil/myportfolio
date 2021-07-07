@@ -271,7 +271,8 @@ nav {
 }
 
 .skills {
-  margin: 10rem 0;
+  margin: 10rem auto;
+
 }
 
 .skills p {
@@ -329,6 +330,10 @@ nav {
   border: 5px solid #212529;
   outline: 2px solid #3a3a3a;
   border-radius: 5px;
+}
+
+.project-container .app-img {
+  padding-left: 2rem;
 }
 
 .project-container h1 {
