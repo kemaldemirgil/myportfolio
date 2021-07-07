@@ -537,19 +537,13 @@ nav {
 /* ------------------------------- media queries --------------------------------------- */
 
 
-/* ------------- 320px ------------------- */
-@media screen and (max-width: 320px) {
-  .project-container .app-img {
-    width: 90vw;
-  }
-}
 
 /* ------------- 595px ------------------- */
 @media screen and (max-width: 595px) {
   .main-info h1, .main-info h1:before, .main-info h1:after {
     animation: none;
   }
-
+  
   .main-info h1:before, .main-info h1:after{
     content: none;
     position:unset;
@@ -565,11 +559,11 @@ nav {
   .main-info h1 {
     font-size: 2.5rem !important;
   }
-
+  
   .typed-text {
     font-size: 1.5rem !important;
   }
-
+  
   .btn-main-contact {
     font-size: 1.5rem;
   }
@@ -577,11 +571,11 @@ nav {
   .caret {
     margin-top: 10rem;
   }
-
+  
   .jumbo h1 {
     font-size: 4rem;
   }
-
+  
   .kd-info {
     font-size: 1.1rem;
     margin: 2rem;
@@ -592,6 +586,13 @@ nav {
     margin: 1rem 5rem;
   }
   
+}
+
+/* ------------- 995px ------------------- */
+@media screen and (max-width: 995px) {
+  .project-container .app-img {
+    width: 90vw;
+  }
 }
 
 /* ------------- 1045px ------------------- */
