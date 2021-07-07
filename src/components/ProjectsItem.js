@@ -11,7 +11,7 @@ const Project = (props) => (
             <Header as='span'><Icon name='file code'/>{props.title}</Header>
         </Divider>
         <div className="row">
-            <div className="col-lg-4 app-img" data-aos="fade-right" data-aos-duration="2000">
+            <div className="col-lg-4 app-img" data-aos="fade-down" data-aos-duration="2000">
             <Image
                 fluid
                 label={{
@@ -24,7 +24,7 @@ const Project = (props) => (
                 src={require(`../assets/project-images/${props.img}`).default}
             />
             </div>
-            <div className="col-lg-7" data-aos="fade-left" data-aos-duration="2000">
+            <div className="col-lg-7" data-aos="fade-up" data-aos-duration="2000">
                 <h1>{props.title}</h1>
                 <p className="app-desc"><FontAwesomeIcon icon={faChevronRight}/> {props.desc}</p>
                 <p style={{ fontSize: "110%" }}><FontAwesomeIcon icon={faSitemap}/> Technologies</p>
