@@ -12,7 +12,7 @@
 
 ### 🌐 [Deployed Link](https://kemaldemirgil.github.io/myportfolio/)
 ## ![](/src/assets/favicon-16x16.png) About:
-This portfolio is my first application using `ReactJS`. I've added some additional features and content compared with my first portfolio which was made with only `HTML` and `CSS`. I am looking forward to practice `Three.js` and eventually create another one of these using it.
+This portfolio is my first application using `ReactJS`. I've added some additional features and content compared with my first portfolio, which was made with only `HTML` and `CSS`. I am looking forward to practice `Three.js` and eventually create another one of these using it.
 
 ## 🧰 Dependencies:
 
@@ -54,7 +54,7 @@ Projects Page                    | Contact Page
 
 
 ## 📝 Notes:
-> At first, understanding how the `create-react-app` worked and especially deployment to github pages with the gh-pages branch using React Router was challenging. But once the app was running, everything kind of came together and afterwards it was pretty straight forward. React is incrediable! It cuts off so much of the DOM manupilation, and how it renders the components when any change happens is also awesome. I'm very excited to use React more often now.
+> At first, understanding how the `create-react-app` worked and especially deployment to **Github Pages** with the gh-pages branch using React Router was challenging. But once the app was running, everything kind of came together and afterwards it was pretty straight forward. React is incredible! It cuts off so much of the DOM manipulation, and how it renders the components when any change happens is also awesome. I'm very excited to use React more often now.
 
 <h3 align = "center">Connect with me!</h3>
 <p align="center">
