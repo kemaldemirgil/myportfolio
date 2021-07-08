@@ -321,7 +321,8 @@ nav {
 .project-container{
   background-color: #212529;
   color: #fff;
-  padding: 3rem 0;
+  padding: 3rem 2rem !important;
+  overflow: hidden !important;
 }
 
 .project-container img {
