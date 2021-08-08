@@ -1,142 +1,197 @@
 [
-    {
-        "title": "Techbook",
-        "desc": "Techbook allows people from the Tech industry to connect with each other, gives recruiters the ability to connect and interact with people, enables students to improve their work.",
-        "tech": ["HTML", "CSS", "Javascript", "jQuery", "Node.js", "Express", "MySQL", "Handlebars", "Semantic UI"],
-        "img": "techbook.png",
-        "github": "https://github.com/kemaldemirgil/techbook",
-        "deployed": "https://my-techbook.herokuapp.com/"
-    },
-    {
-        "title": "Skewed News",
-        "desc": "This is an interactive news application that displays several news sources depending on their category. It also includes many other features like, currency conversion, daily BTC value and much more.",
-        "tech": ["HTML", "CSS", "Javascript", "jQuery", "Materialize", "Moment.js"],
-        "img": "skewednews.png",
-        "github": "https://github.com/kemaldemirgil/SkewedNews",
-        "deployed": "https://weird-but-doable.github.io/SkewedNews/"
-    },
-    {
-        "title": "Meteor Rush",
-        "desc": "This is an arcade-style, space shooter game created with Scratch.",
-        "tech": ["Scratch", "HTML"],
-        "img": "meteorrush.png",
-        "github": "https://github.com/kemaldemirgil/meteor-rush",
-        "deployed": "https://kemaldemirgil.github.io/meteor-rush/"
-    },
-    {
-        "title": "Tech Connect",
-        "desc": "This website is a CMS-style blog site similar to a WordPress site, where developers can publish their blog posts and comment on other developers posts as well.",
-        "tech": ["HTML", "CSS", "Javascript", "jQuery", "Node.js", "Express", "MySQL", "Handlebars"],
-        "img": "techconnect.png",
-        "github": "https://github.com/kemaldemirgil/t3ch-c0nn3t",
-        "deployed": "https://t3ch-connect.herokuapp.com/"
-    },
-    {
-        "title": "whit3-wall3t",
-        "desc": "Whit3 wall3t is an easy & efficient way to keep track of your budget. It allows users to access their wallet even when there is no internet connection, it also can be installed through the browser and used on your phone & desktop.",
-        "tech": ["HTML", "CSS", "Javascript", "Boostrap", "Express", "Node.js", "MongoDB", "Chart.js", "AOS.js", "Tilt.js"],
-        "img": "whit3wall3t.png",
-        "github": "https://github.com/kemaldemirgil/whit3-wall3t",
-        "deployed": "https://whitewallet.herokuapp.com/"
-    },
-    {
-        "title": "Fit Track",
-        "desc": "Fit Track allows users to achieve their fitness goals more quickly by keeping track of their workout progress. Users can view, create and track their daily workouts as well as, logging multiple workouts on a given day.",
-        "tech": ["HTML", "CSS", "Javascript", "Express", "Node.js", "MongoDB", "Chart.js", "Semantic UI", "Bootstrap"],
-        "img": "fittrack.png",
-        "github": "https://github.com/kemaldemirgil/fit-track",
-        "deployed": "https://my-fit-track.herokuapp.com/"
-    },
-    {
-        "title": "Auto Committer",
-        "desc": "This is a shell script application which allows the user to add, commit and push to a github repo with just a single command.",
-        "tech": ["Shell"],
-        "img": "autocommitter.png",
-        "github": "https://github.com/kemaldemirgil/auto-committer"
-    },
-    {
-        "title": "Remember Me",
-        "desc": "This is a simple Note Taker app that allows users to add, edit and delete notes.",
-        "tech": ["HTML", "CSS", "Javascript", "Express", "Node.js"],
-        "img": "rememberme.png",
-        "github": "https://github.com/kemaldemirgil/remember-me",
-        "deployed": "https://salty-earth-55682.herokuapp.com/"
-    },
-    {
-        "title": "Buy M3",
-        "desc": "This API was created to perform CRUD operations on the simple elements that can occur on a standard E-Commerce project.",
-        "tech": ["Express", "Node.js", "MySQL"],
-        "img": "buym3.gif",
-        "github": "https://github.com/kemaldemirgil/buy-m3"
-    },
-    {
-        "title": "E-Tracker",
-        "desc": "This application was created to organize and plan businesses, it allows the user to easily store data about their employee's, departments and roles.",
-        "tech": ["Express", "Node.js", "MySQL"],
-        "img": "etracker.gif",
-        "github": "https://github.com/kemaldemirgil/e-tracker"
-    },
-    {
-        "title": "Team Builder",
-        "desc": "This is a software engineering team generator application that creates new members depending on their position in the team. It can generate an infinite amount of members while still maintaining the structure of the HTML webpage its being displayed.",
-        "tech": ["HTML", "CSS", "Javascript", "Express", "Node.js", "Jest"],
-        "img": "teambuilder.png",
-        "github": "https://github.com/kemaldemirgil/teamBuilder"
-    },
-    {
-        "title": "Fog City",
-        "desc": "This weather dashboard was created to display the current weather conditions and the upcoming weather forecast of five days.",
-        "tech": ["HTML", "CSS", "Javascript", "jQuery", "Bootstrap"],
-        "img": "fogcity.png",
-        "github": "https://github.com/kemaldemirgil/fog-city",
-        "deployed": "https://kemaldemirgil.github.io/fog-city/"
-    },
-    {
-        "title": "No Stress",
-        "desc": "This is a daily work scheduler to organize and plan out the events during the day.",
-        "tech": ["HTML", "CSS", "Javascript", "jQuery", "Bootstrap", "Moment.js"],
-        "img": "nostress.png",
-        "github": "https://github.com/kemaldemirgil/no-stress",
-        "deployed": "https://kemaldemirgil.github.io/no-stress/"
-    },
-    {
-        "title": "60 Seconds Challenge",
-        "desc": "This coding quiz has 8 questions with a timer of 60 seconds. Every incorrect answer will cost -10 seconds in the timer, the score will be stored, and multiple attempts are allowed.",
-        "tech": ["Javascript", "CSS", "HTML"],
-        "img": "60seconds.png",
-        "github": "https://github.com/kemaldemirgil/60-seconds-challenge",
-        "deployed": "https://kemaldemirgil.github.io/60-seconds-challenge/"
-    },
-    {
-        "title": "Unhackable",
-        "desc": "This is my first application created using JavaScript. It generates a password depending on the criteria the user chooses. ",
-        "tech": ["Javascript", "CSS", "HTML"],
-        "img": "unhackable.png",
-        "github": "https://github.com/kemaldemirgil/unhackable",
-        "deployed": "https://kemaldemirgil.github.io/unhackable/"
-    },
-    {
-        "title": "The List",
-        "desc": "This list was created to organize your daily tasks.",
-        "tech": ["Javascript", "CSS", "HTML"],
-        "img": "thelist.png",
-        "github": "https://github.com/kemaldemirgil/the-list",
-        "deployed": "https://kemaldemirgil.github.io/the-list/"
-    },
-    {
-        "title": "Rock Paper Scissors",
-        "desc": "This rock-paper-scissors game was created only with alerts, prompts and confirm methods.",
-        "tech": ["Javascript", "CSS", "HTML"],
-        "img": "rps.png",
-        "github": "https://github.com/kemaldemirgil/rock-paper-scissors",
-        "deployed": "https://kemaldemirgil.github.io/rock-paper-scissors/"
-    },
-    {
-        "title": "KD Portfolio",
-        "desc": "This is my first, fully responsive portfolio.",
-        "tech": ["CSS", "HTML"],
-        "img": "kdportfolio.png",
-        "github": "https://github.com/kemaldemirgil/kd-portfolio",
-        "deployed": "https://kemaldemirgil.github.io/kd-portfolio/"
-    }
+  {
+    "title": "Explorer",
+    "desc": "Explorer is a traveller's guide/search engine to find your next travel location. It provides information about cities and provides suggestions depending on the user type.",
+    "tech": [
+      "MongoDB",
+      "Express",
+      "ReactJS",
+      "Node.js",
+      "GraphQL",
+      "Semantic UI"
+    ],
+    "img": "explorer.png",
+    "github": "https://github.com/DACK-OF-ALL-TRADES/explorer",
+    "deployed": "https://explorer-guide.herokuapp.com"
+  },
+  {
+    "title": "Techbook",
+    "desc": "Techbook allows people from the Tech industry to connect with each other, gives recruiters the ability to connect and interact with people, enables students to improve their work.",
+    "tech": [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "jQuery",
+      "Node.js",
+      "Express",
+      "MySQL",
+      "Handlebars",
+      "Semantic UI"
+    ],
+    "img": "techbook.png",
+    "github": "https://github.com/kemaldemirgil/techbook",
+    "deployed": "https://my-techbook.herokuapp.com/"
+  },
+  {
+    "title": "Skewed News",
+    "desc": "This is an interactive news application that displays several news sources depending on their category. It also includes many other features like, currency conversion, daily BTC value and much more.",
+    "tech": ["HTML", "CSS", "Javascript", "jQuery", "Materialize", "Moment.js"],
+    "img": "skewednews.png",
+    "github": "https://github.com/kemaldemirgil/SkewedNews",
+    "deployed": "https://weird-but-doable.github.io/SkewedNews/"
+  },
+  {
+    "title": "Meteor Rush",
+    "desc": "This is an arcade-style, space shooter game created with Scratch.",
+    "tech": ["Scratch", "HTML"],
+    "img": "meteorrush.png",
+    "github": "https://github.com/kemaldemirgil/meteor-rush",
+    "deployed": "https://kemaldemirgil.github.io/meteor-rush/"
+  },
+  {
+    "title": "Tech Connect",
+    "desc": "This website is a CMS-style blog site similar to a WordPress site, where developers can publish their blog posts and comment on other developers posts as well.",
+    "tech": [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "jQuery",
+      "Node.js",
+      "Express",
+      "MySQL",
+      "Handlebars"
+    ],
+    "img": "techconnect.png",
+    "github": "https://github.com/kemaldemirgil/t3ch-c0nn3t",
+    "deployed": "https://t3ch-connect.herokuapp.com/"
+  },
+  {
+    "title": "whit3-wall3t",
+    "desc": "Whit3 wall3t is an easy & efficient way to keep track of your budget. It allows users to access their wallet even when there is no internet connection, it also can be installed through the browser and used on your phone & desktop.",
+    "tech": [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "Boostrap",
+      "Express",
+      "Node.js",
+      "MongoDB",
+      "Chart.js",
+      "AOS.js",
+      "Tilt.js"
+    ],
+    "img": "whit3wall3t.png",
+    "github": "https://github.com/kemaldemirgil/whit3-wall3t",
+    "deployed": "https://whitewallet.herokuapp.com/"
+  },
+  {
+    "title": "Fit Track",
+    "desc": "Fit Track allows users to achieve their fitness goals more quickly by keeping track of their workout progress. Users can view, create and track their daily workouts as well as, logging multiple workouts on a given day.",
+    "tech": [
+      "HTML",
+      "CSS",
+      "Javascript",
+      "Express",
+      "Node.js",
+      "MongoDB",
+      "Chart.js",
+      "Semantic UI",
+      "Bootstrap"
+    ],
+    "img": "fittrack.png",
+    "github": "https://github.com/kemaldemirgil/fit-track",
+    "deployed": "https://my-fit-track.herokuapp.com/"
+  },
+  {
+    "title": "Auto Committer",
+    "desc": "This is a shell script application which allows the user to add, commit and push to a github repo with just a single command.",
+    "tech": ["Shell"],
+    "img": "autocommitter.png",
+    "github": "https://github.com/kemaldemirgil/auto-committer"
+  },
+  {
+    "title": "Remember Me",
+    "desc": "This is a simple Note Taker app that allows users to add, edit and delete notes.",
+    "tech": ["HTML", "CSS", "Javascript", "Express", "Node.js"],
+    "img": "rememberme.png",
+    "github": "https://github.com/kemaldemirgil/remember-me",
+    "deployed": "https://salty-earth-55682.herokuapp.com/"
+  },
+  {
+    "title": "Buy M3",
+    "desc": "This API was created to perform CRUD operations on the simple elements that can occur on a standard E-Commerce project.",
+    "tech": ["Express", "Node.js", "MySQL"],
+    "img": "buym3.gif",
+    "github": "https://github.com/kemaldemirgil/buy-m3"
+  },
+  {
+    "title": "E-Tracker",
+    "desc": "This application was created to organize and plan businesses, it allows the user to easily store data about their employee's, departments and roles.",
+    "tech": ["Express", "Node.js", "MySQL"],
+    "img": "etracker.gif",
+    "github": "https://github.com/kemaldemirgil/e-tracker"
+  },
+  {
+    "title": "Team Builder",
+    "desc": "This is a software engineering team generator application that creates new members depending on their position in the team. It can generate an infinite amount of members while still maintaining the structure of the HTML webpage its being displayed.",
+    "tech": ["HTML", "CSS", "Javascript", "Express", "Node.js", "Jest"],
+    "img": "teambuilder.png",
+    "github": "https://github.com/kemaldemirgil/teamBuilder"
+  },
+  {
+    "title": "Fog City",
+    "desc": "This weather dashboard was created to display the current weather conditions and the upcoming weather forecast of five days.",
+    "tech": ["HTML", "CSS", "Javascript", "jQuery", "Bootstrap"],
+    "img": "fogcity.png",
+    "github": "https://github.com/kemaldemirgil/fog-city",
+    "deployed": "https://kemaldemirgil.github.io/fog-city/"
+  },
+  {
+    "title": "No Stress",
+    "desc": "This is a daily work scheduler to organize and plan out the events during the day.",
+    "tech": ["HTML", "CSS", "Javascript", "jQuery", "Bootstrap", "Moment.js"],
+    "img": "nostress.png",
+    "github": "https://github.com/kemaldemirgil/no-stress",
+    "deployed": "https://kemaldemirgil.github.io/no-stress/"
+  },
+  {
+    "title": "60 Seconds Challenge",
+    "desc": "This coding quiz has 8 questions with a timer of 60 seconds. Every incorrect answer will cost -10 seconds in the timer, the score will be stored, and multiple attempts are allowed.",
+    "tech": ["Javascript", "CSS", "HTML"],
+    "img": "60seconds.png",
+    "github": "https://github.com/kemaldemirgil/60-seconds-challenge",
+    "deployed": "https://kemaldemirgil.github.io/60-seconds-challenge/"
+  },
+  {
+    "title": "Unhackable",
+    "desc": "This is my first application created using JavaScript. It generates a password depending on the criteria the user chooses. ",
+    "tech": ["Javascript", "CSS", "HTML"],
+    "img": "unhackable.png",
+    "github": "https://github.com/kemaldemirgil/unhackable",
+    "deployed": "https://kemaldemirgil.github.io/unhackable/"
+  },
+  {
+    "title": "The List",
+    "desc": "This list was created to organize your daily tasks.",
+    "tech": ["Javascript", "CSS", "HTML"],
+    "img": "thelist.png",
+    "github": "https://github.com/kemaldemirgil/the-list",
+    "deployed": "https://kemaldemirgil.github.io/the-list/"
+  },
+  {
+    "title": "Rock Paper Scissors",
+    "desc": "This rock-paper-scissors game was created only with alerts, prompts and confirm methods.",
+    "tech": ["Javascript", "CSS", "HTML"],
+    "img": "rps.png",
+    "github": "https://github.com/kemaldemirgil/rock-paper-scissors",
+    "deployed": "https://kemaldemirgil.github.io/rock-paper-scissors/"
+  },
+  {
+    "title": "KD Portfolio",
+    "desc": "This is my first, fully responsive portfolio.",
+    "tech": ["CSS", "HTML"],
+    "img": "kdportfolio.png",
+    "github": "https://github.com/kemaldemirgil/kd-portfolio",
+    "deployed": "https://kemaldemirgil.github.io/kd-portfolio/"
+  }
 ]

@@ -1,5 +1,5 @@
 /* ------------------------------- fonts --------------------------------------- */
-@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=Text+Me+One&family=Tourney&family=Megrim&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Mono&family=Text+Me+One&family=Tourney&family=Megrim&display=swap");
 
 /* ------------------------------- init --------------------------------------- */
 :root {
@@ -30,9 +30,8 @@
 }
 
 body * {
-  font-family: 'Text Me One', sans-serif;
+  font-family: "Text Me One", sans-serif;
 }
-
 
 /* ------------------------------- navbar --------------------------------------- */
 .logo {
@@ -40,9 +39,8 @@ body * {
 }
 
 nav {
-   z-index: 2;
+  z-index: 2;
 }
-
 
 /* ------------------------------- nav-links --------------------------------------- */
 .navbar-nav {
@@ -55,56 +53,53 @@ nav {
   text-decoration: none;
 }
 
-.navbar-nav a li{
+.navbar-nav a li {
   color: var(--gold) !important;
   margin-right: 1.5rem;
-  border-top: 0.1875rem solid rgba(255,255,255,0) ;
-  transition: .3s ease-in-out;
+  border-top: 0.1875rem solid rgba(255, 255, 255, 0);
+  transition: 0.3s ease-in-out;
 }
 
-.navbar-nav a li.active, .navbar-nav a li.active:focus {
-  border-top: 0.1875rem solid var(--pink) ;
+.navbar-nav a li.active,
+.navbar-nav a li.active:focus {
+  border-top: 0.1875rem solid var(--pink);
 }
 
 .navbar-nav a li:hover {
-  border-top: 0.1875rem solid var(--pink) ;
-  transition: .3s ease-in-out;
+  border-top: 0.1875rem solid var(--pink);
+  transition: 0.3s ease-in-out;
 }
-
 
 /* ------------------------------- footer --------------------------------------- */
 .footer-basic {
-  background-color:#212529;
+  background-color: #212529;
   padding: 1rem 0;
 }
 
 .footer-basic .social {
-  text-align:center;
-  padding-bottom:0.5rem;
+  text-align: center;
+  padding-bottom: 0.5rem;
 }
 
 .footer-basic .social a {
-  font-size:2.5rem;
-  text-align:center;
-  margin:0 2rem;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 0 2rem;
   color: var(--gold);
-  transition: .3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .footer-basic .social a:hover {
   color: var(--pink);
-  transition: .3s ease-in-out
+  transition: 0.3s ease-in-out;
 }
 
 .footer-basic .copyright {
-  text-align:center;
-  font-size:13px;
-  color:rgb(90, 90, 90);
-  margin-bottom:0;
+  text-align: center;
+  font-size: 13px;
+  color: rgb(90, 90, 90);
+  margin-bottom: 0;
 }
-
-
-
 
 /* ------------------------------- header --------------------------------------- */
 .header-wraper {
@@ -133,40 +128,40 @@ nav {
   color: var(--gold);
   text-transform: uppercase;
   font-size: 8rem;
-  text-shadow: 6px 0 1px rgba(21, 196, 250, 0.5), 0 6px 1px rgba(253, 22, 168, 0.5);
+  text-shadow: 6px 0 1px rgba(21, 196, 250, 0.5),
+    0 6px 1px rgba(253, 22, 168, 0.5);
   font-weight: bolder;
-  font-family: 'Fira Mono', monospace;
+  font-family: "Fira Mono", monospace;
   animation: glitch 1s linear infinite;
 }
 
-.main-info h1:after{
+.main-info h1:after {
   animation: glitchBotom 1.5s linear infinite;
   clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
   -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
 }
 
 .main-info h1:before,
-.main-info h1:after{
+.main-info h1:after {
   content: attr(title);
   position: absolute;
   left: 0;
 }
 
-.main-info h1:before{
+.main-info h1:before {
   animation: glitchTop 1s linear infinite;
   clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
 }
 
-
 /* ------------------------------- typed text --------------------------------------- */
 .typed-text {
   font-size: 3rem;
   color: #fff;
-  text-shadow: 3px 0 1px rgba(21, 196, 250, 0.5), 0 3px 1px rgba(253, 22, 168, 0.5);
+  text-shadow: 3px 0 1px rgba(21, 196, 250, 0.5),
+    0 3px 1px rgba(253, 22, 168, 0.5);
   font-weight: bolder;
 }
-
 
 /* ------------------------------- header main contact button --------------------------------------- */
 .btn-main-contact {
@@ -179,20 +174,21 @@ nav {
   font-size: 2rem;
   background-color: rgba(0, 0, 0, 0.46);
   font-weight: bolder;
-  text-shadow: 3px 0 1px rgba(21, 196, 250, 0.5), 0 3px 1px rgba(253, 22, 168, 0.5);
-  box-shadow: 3px 0 1px rgba(21, 196, 250, 0.5), 0 3px 1px rgba(253, 22, 168, 0.5);
-  transition: .4s ease-in-out;
+  text-shadow: 3px 0 1px rgba(21, 196, 250, 0.5),
+    0 3px 1px rgba(253, 22, 168, 0.5);
+  box-shadow: 3px 0 1px rgba(21, 196, 250, 0.5),
+    0 3px 1px rgba(253, 22, 168, 0.5);
+  transition: 0.4s ease-in-out;
 }
 
 .btn-main-contact:hover {
   text-decoration: none;
-  transition: .4s ease-in-out;
+  transition: 0.4s ease-in-out;
   color: var(--gold);
   background-color: rgba(0, 0, 0, 0.624);
   box-shadow: none;
   text-shadow: none;
 }
-
 
 /* ------------------------------- caret --------------------------------------- */
 .caret {
@@ -201,7 +197,6 @@ nav {
   animation: bounce 2s infinite;
 }
 
-
 /* ------------------------------- particles.js --------------------------------------- */
 .tsparticles-canvas-el {
   position: absolute;
@@ -209,7 +204,6 @@ nav {
   width: 100vw;
   z-index: 1;
 }
-
 
 /* ------------------------------- about --------------------------------------- */
 .jumbo {
@@ -227,11 +221,10 @@ nav {
   height: 100%;
   z-index: 0;
   min-width: max-content;
-  filter:brightness(20%)
+  filter: brightness(20%);
 }
 
-
-.jumbo h1{
+.jumbo h1 {
   z-index: 2;
   position: absolute;
   text-transform: uppercase;
@@ -239,13 +232,13 @@ nav {
   font-weight: bolder;
   color: #fff;
   background-image: linear-gradient(to right, red, blue);
-  -webkit-background-clip: text; 
-  background-clip: text; 
+  -webkit-background-clip: text;
+  background-clip: text;
   color: transparent;
   background-size: 300%;
   background-position: -100%;
   animation: animatedText 5s infinite alternate-reverse;
-  font-family: 'Tourney', cursive;
+  font-family: "Tourney", cursive;
 }
 
 .about-container {
@@ -259,8 +252,26 @@ nav {
 
 .kd {
   max-width: 60%;
-  -webkit-clip-path: polygon(40% 0%, 60% 0%, 100% 0%, 100% 60%, 60% 100%, 0% 100%, 0% 86%, 0% 40%);
-  clip-path: polygon(40% 0%, 60% 0%, 100% 0%, 100% 60%, 60% 100%, 0% 100%, 0% 86%, 0% 40%);
+  -webkit-clip-path: polygon(
+    40% 0%,
+    60% 0%,
+    100% 0%,
+    100% 60%,
+    60% 100%,
+    0% 100%,
+    0% 86%,
+    0% 40%
+  );
+  clip-path: polygon(
+    40% 0%,
+    60% 0%,
+    100% 0%,
+    100% 60%,
+    60% 100%,
+    0% 100%,
+    0% 86%,
+    0% 40%
+  );
   margin: 5rem;
 }
 
@@ -272,13 +283,12 @@ nav {
 
 .skills {
   margin: 10rem auto;
-
 }
 
 .skills p {
   font-size: 2rem;
   color: #fff;
-  border-bottom: 1px solid var(--gold) ;
+  border-bottom: 1px solid var(--gold);
   padding-bottom: 2rem;
   margin-bottom: 2rem;
   animation: colorChange 5s infinite;
@@ -287,7 +297,7 @@ nav {
 .skills li {
   font-size: 1.3rem;
   color: #fff;
-  list-style-type:none;
+  list-style-type: none;
   text-shadow: 90px 90px 8px var(--gold);
   line-height: 2;
 }
@@ -303,9 +313,7 @@ nav {
   animation: iconColorChange 5s infinite;
 }
 
-
 /* ------------------------------- projects --------------------------------------- */
-
 
 .projects-title {
   background-color: #212529;
@@ -315,10 +323,10 @@ nav {
   color: var(--gold);
   animation: animatedText2 5s infinite;
   padding-top: 2rem;
-  font-family: 'Megrim', cursive;
+  font-family: "Megrim", cursive;
 }
 
-.project-container{
+.project-container {
   background-color: #212529;
   color: #fff;
   padding: 3rem 2rem !important;
@@ -338,7 +346,7 @@ nav {
   font-weight: bolder;
   color: var(--gold);
   font-size: 3rem;
-  font-family: 'Text Me One', sans-serif;
+  font-family: "Text Me One", sans-serif;
 }
 
 .project-container button a {
@@ -361,7 +369,7 @@ nav {
   padding: 2rem 0;
 }
 
-.project-container .buttons button{
+.project-container .buttons button {
   margin-right: 1rem;
   font-weight: bolder;
 }
@@ -370,15 +378,14 @@ nav {
   color: var(--pink);
 }
 
-
 /* ------------------------------- contact --------------------------------------- */
 .email-container {
   background-color: #212529;
   padding-bottom: 20rem;
 }
 
-.email-container *{
-  font-family: 'Text Me One', sans-serif !important;
+.email-container * {
+  font-family: "Text Me One", sans-serif !important;
   font-size: 1.5rem !important;
 }
 
@@ -390,12 +397,12 @@ nav {
   padding: 3rem 0;
 }
 
-.email-wrapper .social a{
+.email-wrapper .social a {
   animation: colorChange2 5s infinite;
 }
 
 .email-wrapper h1 {
-  font-family: 'Text Me One', sans-serif !important;
+  font-family: "Text Me One", sans-serif !important;
   color: var(--pink) !important;
   font-size: 3rem !important;
 }
@@ -417,113 +424,114 @@ nav {
   animation: colorChange2 0.5s infinite;
 }
 
-.email-container .btn.btn-warning{
+.email-container .btn.btn-warning {
   padding: 0.5rem !important;
   width: 100% !important;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ------------------------------- animations --------------------------------------- */
-@keyframes animatedText{
-  to{
-    background-position: 100%; 
+@keyframes animatedText {
+  to {
+    background-position: 100%;
   }
 }
 
-@keyframes animatedText2{
-  0% { text-shadow: 2px 2px var(--pink);}
-  50% { text-shadow: 2px 2px var(--gold);}
-  100% { text-shadow: 2px 2px var(--pink);}
-}
-
-
-@keyframes colorChange{
-  0% { color: var(--gold); }
-  50% { color: rgb(0, 0, 0); }
-  100% { color: var(--gold); }
-}
-
-@keyframes colorChange2{
-  0% { text-shadow: 30px 30px 6px #e417da9f; }
-  50% { text-shadow: 30px 30px 3px #e417da46; }
-  100% { text-shadow: 30px 30px 6px #e417da9f; }
-}
-
-@keyframes iconColorChange{
-  0% { color: var(--pink); }
-  50% { color: var(--gold); }
-  100% { color: var(--pink); }
-}
-
-@keyframes glitch{
-  2%,64%{
-    transform: translate(2px,0) skew(0deg);
+@keyframes animatedText2 {
+  0% {
+    text-shadow: 2px 2px var(--pink);
   }
-  4%,60%{
-    transform: translate(-2px,0) skew(0deg);
+  50% {
+    text-shadow: 2px 2px var(--gold);
   }
-  62%{
-    transform: translate(0,0) skew(5deg); 
+  100% {
+    text-shadow: 2px 2px var(--pink);
   }
 }
 
-@keyframes glitchTop{
-  2%,64%{
-    transform: translate(2px,-2px);
+@keyframes colorChange {
+  0% {
+    color: var(--gold);
   }
-  4%,60%{
-    transform: translate(-2px,2px);
+  50% {
+    color: rgb(0, 0, 0);
   }
-  62%{
-    transform: translate(13px,-1px) skew(-13deg); 
+  100% {
+    color: var(--gold);
   }
 }
 
-@keyframes glitchBotom{
-  2%,64%{
-    transform: translate(-2px,0);
+@keyframes colorChange2 {
+  0% {
+    text-shadow: 30px 30px 6px #e417da9f;
   }
-  4%,60%{
-    transform: translate(-2px,0);
+  50% {
+    text-shadow: 30px 30px 3px #e417da46;
   }
-  62%{
-    transform: translate(-22px,5px) skew(21deg); 
+  100% {
+    text-shadow: 30px 30px 6px #e417da9f;
+  }
+}
+
+@keyframes iconColorChange {
+  0% {
+    color: var(--pink);
+  }
+  50% {
+    color: var(--gold);
+  }
+  100% {
+    color: var(--pink);
+  }
+}
+
+@keyframes glitch {
+  2%,
+  64% {
+    transform: translate(2px, 0) skew(0deg);
+  }
+  4%,
+  60% {
+    transform: translate(-2px, 0) skew(0deg);
+  }
+  62% {
+    transform: translate(0, 0) skew(5deg);
+  }
+}
+
+@keyframes glitchTop {
+  2%,
+  64% {
+    transform: translate(2px, -2px);
+  }
+  4%,
+  60% {
+    transform: translate(-2px, 2px);
+  }
+  62% {
+    transform: translate(13px, -1px) skew(-13deg);
+  }
+}
+
+@keyframes glitchBotom {
+  2%,
+  64% {
+    transform: translate(-2px, 0);
+  }
+  4%,
+  60% {
+    transform: translate(-2px, 0);
+  }
+  62% {
+    transform: translate(-22px, 5px) skew(21deg);
   }
 }
 
 @keyframes bounce {
-  0%, 20%, 50%, 80%, 100% {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
     transform: translateY(0);
   }
   40% {
@@ -534,20 +542,20 @@ nav {
   }
 }
 
-
 /* ------------------------------- media queries --------------------------------------- */
-
-
 
 /* ------------- 595px ------------------- */
 @media screen and (max-width: 595px) {
-  .main-info h1, .main-info h1:before, .main-info h1:after {
+  .main-info h1,
+  .main-info h1:before,
+  .main-info h1:after {
     animation: none;
   }
-  
-  .main-info h1:before, .main-info h1:after{
+
+  .main-info h1:before,
+  .main-info h1:after {
     content: none;
-    position:unset;
+    position: unset;
   }
 }
 
@@ -560,23 +568,23 @@ nav {
   .main-info h1 {
     font-size: 2.5rem !important;
   }
-  
+
   .typed-text {
     font-size: 1.5rem !important;
   }
-  
+
   .btn-main-contact {
     font-size: 1.5rem;
   }
-  
+
   .caret {
     margin-top: 10rem;
   }
-  
+
   .jumbo h1 {
     font-size: 4rem;
   }
-  
+
   .kd-info {
     font-size: 1.1rem;
     margin: 2rem;
@@ -586,7 +594,6 @@ nav {
   .kd {
     margin: 1rem 5rem;
   }
-  
 }
 
 /* ------------- 995px ------------------- */
@@ -612,15 +619,6 @@ nav {
     height: 140vh;
   }
 }
-
-
-
-
-
-
-
-
-
 
 /* @media screen and (max-width: 991px) {
   .navbar-nav li a{
