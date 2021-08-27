@@ -10,7 +10,7 @@
   <img src="https://img.shields.io/github/last-commit/kemaldemirgil/myportfolio?color=orange&label=Last%20Commit&logo=git&logoColor=orange">
 </p>
 
-### 🌐 [Deployed Link](https://kemaldemirgil.github.io/myportfolio/)
+### 🌐 [Deployed Link](https://kemaldemirgil.com)
 ## ![](/src/assets/favicon-16x16.png) About:
 This portfolio is my first application using `ReactJS`. I've added some additional features and content compared with my first portfolio, which was made with only `HTML` and `CSS`. I am looking forward to practice `Three.js` and eventually create another one of these using it.
 
