@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.c1c03fc6.chunk.css",
-    "main.js": "/static/js/main.d84565da.chunk.js",
-    "main.js.map": "/static/js/main.d84565da.chunk.js.map",
+    "main.js": "/static/js/main.6e791942.chunk.js",
+    "main.js.map": "/static/js/main.6e791942.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5ebc510a.js",
     "runtime-main.js.map": "/static/js/runtime-main.5ebc510a.js.map",
     "static/css/2.11704289.chunk.css": "/static/css/2.11704289.chunk.css",
@@ -26,7 +26,7 @@
     "static/media/hex-flash.c43ebe6a.mp4": "/static/media/hex-flash.c43ebe6a.mp4",
     "static/media/kd-logo-transparent.31c83117.png": "/static/media/kd-logo-transparent.31c83117.png",
     "static/media/kdportfolio.png": "/static/media/kdportfolio.a65998b8.png",
-    "static/media/kemaldemirgil-cv.db0b53ca.pdf": "/static/media/kemaldemirgil-cv.db0b53ca.pdf",
+    "static/media/kemaldemirgil-cv.b7f00d2a.pdf": "/static/media/kemaldemirgil-cv.b7f00d2a.pdf",
     "static/media/meteorrush.png": "/static/media/meteorrush.87c251b1.png",
     "static/media/nostress.png": "/static/media/nostress.e2153fd4.png",
     "static/media/rememberme.png": "/static/media/rememberme.2f4d5c1d.png",
@@ -45,6 +45,6 @@
     "static/css/2.11704289.chunk.css",
     "static/js/2.74026d55.chunk.js",
     "static/css/main.c1c03fc6.chunk.css",
-    "static/js/main.d84565da.chunk.js"
+    "static/js/main.6e791942.chunk.js"
   ]
 }
