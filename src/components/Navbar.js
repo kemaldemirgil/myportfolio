@@ -13,7 +13,7 @@ const Navbar = () => {
           className="navbar-brand"
           data-aos="zoom-in"
           data-aos-offset="0"
-          href="/myportfolio"
+          href="/"
         >
           <img className="logo" src={logo} alt="logo" />
         </a>
