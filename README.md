@@ -44,6 +44,13 @@ This portfolio is my first application using `ReactJS`. I've added some addition
 ```
 
 ## 🖼️ Images:
+
+Responsive Design               |
+:---------------------------: |
+![](/src/assets/ss.png)   |
+
+
+
 Entry Page                     | About Page
 :---------------------------: | :-----------------:
 ![](/src/assets/ss-enter.png)   |  ![](/src/assets/ss-about.png)
