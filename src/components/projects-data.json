@@ -4,9 +4,9 @@
     "desc": "Explorer is a traveller's guide/search engine to find your next travel location. It provides information about cities and provides suggestions depending on the user type.",
     "tech": [
       "MongoDB",
-      "Express",
+      "ExpressJS",
       "ReactJS",
-      "Node.js",
+      "NodeJS",
       "GraphQL",
       "Semantic UI"
     ],
@@ -15,15 +15,23 @@
     "deployed": "https://explorer-guide.herokuapp.com"
   },
   {
+    "title": "Natocrypt",
+    "desc": "Natocrypt is a zero dependency NPM encryption library. Users can either use the NATO Phonetic Alphabet to encrypt their passwords/text or apply encryption using the Morse Code.",
+    "tech": ["TypeScript", "NodeJS", "Jest"],
+    "img": "nato.png",
+    "github": "https://github.com/kemaldemirgil/natocrypt",
+    "deployed": "https://www.npmjs.com/package/natocrypt"
+  },
+  {
     "title": "Techbook",
     "desc": "Techbook allows people from the Tech industry to connect with each other, gives recruiters the ability to connect and interact with people, enables students to improve their work.",
     "tech": [
       "HTML",
       "CSS",
-      "Javascript",
+      "JavaScript",
       "jQuery",
-      "Node.js",
-      "Express",
+      "NodeJS",
+      "ExpressJS",
       "MySQL",
       "Handlebars",
       "Semantic UI"
@@ -35,7 +43,7 @@
   {
     "title": "Skewed News",
     "desc": "This is an interactive news application that displays several news sources depending on their category. It also includes many other features like, currency conversion, daily BTC value and much more.",
-    "tech": ["HTML", "CSS", "Javascript", "jQuery", "Materialize", "Moment.js"],
+    "tech": ["HTML", "CSS", "JavaScript", "jQuery", "Materialize", "Moment.js"],
     "img": "skewednews.png",
     "github": "https://github.com/kemaldemirgil/SkewedNews",
     "deployed": "https://weird-but-doable.github.io/SkewedNews/"
@@ -54,10 +62,10 @@
     "tech": [
       "HTML",
       "CSS",
-      "Javascript",
+      "JavaScript",
       "jQuery",
-      "Node.js",
-      "Express",
+      "NodeJS",
+      "ExpressJS",
       "MySQL",
       "Handlebars"
     ],
@@ -66,15 +74,38 @@
     "deployed": "https://t3ch-connect.herokuapp.com/"
   },
   {
+    "title": "EXP | CON",
+    "desc": "This is a front-end only application created as a prototype.",
+    "tech": ["ReactJS", "CSS"],
+    "img": "exp.png",
+    "github": "https://github.com/kemaldemirgil/exp-con-mlp",
+    "deployed": "https://exp-con-mlp.herokuapp.com/"
+  },
+  {
+    "title": "Skydia",
+    "desc": "Skydia is a simple front-end weather application that allows users to view the weather of a searched city. Users can acces their favourite cities as well.",
+    "tech": ["ReactJS", "TypeScript", "Semantic UI", "AOS.js"],
+    "img": "skydia.png",
+    "github": "https://github.com/kemaldemirgil/skydia",
+    "deployed": "https://kemaldemirgil.github.io/skydia/"
+  },
+  {
+    "title": "Zion API",
+    "desc": "Zion is a movie theater API which allows user to configure their movies, rooms and showtimes.",
+    "tech": ["Python", "Django", "Django REST Framework"],
+    "img": "zion.png",
+    "github": "https://github.com/kemaldemirgil/zion-api"
+  },
+  {
     "title": "whit3-wall3t",
     "desc": "Whit3 wall3t is an easy & efficient way to keep track of your budget. It allows users to access their wallet even when there is no internet connection, it also can be installed through the browser and used on your phone & desktop.",
     "tech": [
       "HTML",
       "CSS",
-      "Javascript",
+      "JavaScript",
       "Boostrap",
-      "Express",
-      "Node.js",
+      "ExpressJS",
+      "NodeJS",
       "MongoDB",
       "Chart.js",
       "AOS.js",
@@ -90,9 +121,9 @@
     "tech": [
       "HTML",
       "CSS",
-      "Javascript",
-      "Express",
-      "Node.js",
+      "JavaScript",
+      "ExpressJS",
+      "NodeJS",
       "MongoDB",
       "Chart.js",
       "Semantic UI",
@@ -110,9 +141,16 @@
     "github": "https://github.com/kemaldemirgil/auto-committer"
   },
   {
+    "title": "p0ck3t",
+    "desc": "This GUI was created to store and organize your passwords.",
+    "tech": ["Python", "PyInstaller", "Tkinter", "SQLite"],
+    "img": "pocket.png",
+    "github": "https://github.com/kemaldemirgil/p0ck3t"
+  },
+  {
     "title": "Remember Me",
     "desc": "This is a simple Note Taker app that allows users to add, edit and delete notes.",
-    "tech": ["HTML", "CSS", "Javascript", "Express", "Node.js"],
+    "tech": ["HTML", "CSS", "JavaScript", "ExpressJS", "NodeJS"],
     "img": "rememberme.png",
     "github": "https://github.com/kemaldemirgil/remember-me",
     "deployed": "https://salty-earth-55682.herokuapp.com/"
@@ -120,28 +158,28 @@
   {
     "title": "Buy M3",
     "desc": "This API was created to perform CRUD operations on the simple elements that can occur on a standard E-Commerce project.",
-    "tech": ["Express", "Node.js", "MySQL"],
+    "tech": ["ExpressJS", "NodeJS", "MySQL"],
     "img": "buym3.gif",
     "github": "https://github.com/kemaldemirgil/buy-m3"
   },
   {
     "title": "E-Tracker",
-    "desc": "This application was created to organize and plan businesses, it allows the user to easily store data about their employee's, departments and roles.",
-    "tech": ["Express", "Node.js", "MySQL"],
+    "desc": "This API was created to organize and plan businesses, it allows the user to easily store data about their employee's, departments and roles.",
+    "tech": ["ExpressJS", "NodeJS", "MySQL"],
     "img": "etracker.gif",
     "github": "https://github.com/kemaldemirgil/e-tracker"
   },
   {
     "title": "Team Builder",
     "desc": "This is a software engineering team generator application that creates new members depending on their position in the team. It can generate an infinite amount of members while still maintaining the structure of the HTML webpage its being displayed.",
-    "tech": ["HTML", "CSS", "Javascript", "Express", "Node.js", "Jest"],
+    "tech": ["HTML", "CSS", "JavaScript", "ExpressJS", "NodeJS", "Jest"],
     "img": "teambuilder.png",
     "github": "https://github.com/kemaldemirgil/teamBuilder"
   },
   {
     "title": "Fog City",
     "desc": "This weather dashboard was created to display the current weather conditions and the upcoming weather forecast of five days.",
-    "tech": ["HTML", "CSS", "Javascript", "jQuery", "Bootstrap"],
+    "tech": ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap"],
     "img": "fogcity.png",
     "github": "https://github.com/kemaldemirgil/fog-city",
     "deployed": "https://kemaldemirgil.github.io/fog-city/"
@@ -149,7 +187,7 @@
   {
     "title": "No Stress",
     "desc": "This is a daily work scheduler to organize and plan out the events during the day.",
-    "tech": ["HTML", "CSS", "Javascript", "jQuery", "Bootstrap", "Moment.js"],
+    "tech": ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "Moment.js"],
     "img": "nostress.png",
     "github": "https://github.com/kemaldemirgil/no-stress",
     "deployed": "https://kemaldemirgil.github.io/no-stress/"
@@ -157,7 +195,7 @@
   {
     "title": "60 Seconds Challenge",
     "desc": "This coding quiz has 8 questions with a timer of 60 seconds. Every incorrect answer will cost -10 seconds in the timer, the score will be stored, and multiple attempts are allowed.",
-    "tech": ["Javascript", "CSS", "HTML"],
+    "tech": ["JavaScript", "CSS", "HTML"],
     "img": "60seconds.png",
     "github": "https://github.com/kemaldemirgil/60-seconds-challenge",
     "deployed": "https://kemaldemirgil.github.io/60-seconds-challenge/"
@@ -165,7 +203,7 @@
   {
     "title": "Unhackable",
     "desc": "This is my first application created using JavaScript. It generates a password depending on the criteria the user chooses. ",
-    "tech": ["Javascript", "CSS", "HTML"],
+    "tech": ["JavaScript", "CSS", "HTML"],
     "img": "unhackable.png",
     "github": "https://github.com/kemaldemirgil/unhackable",
     "deployed": "https://kemaldemirgil.github.io/unhackable/"
@@ -173,7 +211,7 @@
   {
     "title": "The List",
     "desc": "This list was created to organize your daily tasks.",
-    "tech": ["Javascript", "CSS", "HTML"],
+    "tech": ["JavaScript", "CSS", "HTML"],
     "img": "thelist.png",
     "github": "https://github.com/kemaldemirgil/the-list",
     "deployed": "https://kemaldemirgil.github.io/the-list/"
@@ -181,7 +219,7 @@
   {
     "title": "Rock Paper Scissors",
     "desc": "This rock-paper-scissors game was created only with alerts, prompts and confirm methods.",
-    "tech": ["Javascript", "CSS", "HTML"],
+    "tech": ["JavaScript", "CSS", "HTML"],
     "img": "rps.png",
     "github": "https://github.com/kemaldemirgil/rock-paper-scissors",
     "deployed": "https://kemaldemirgil.github.io/rock-paper-scissors/"

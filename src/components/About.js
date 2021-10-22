@@ -39,7 +39,7 @@ const About = () => {
                 <b>January 2021</b> and since then, I've been working on
                 building web &amp; computer applications using several tools and
                 languages. I have a great interest in{" "}
-                <i>Software development,</i> <i>Cybersecurity</i> and{" "}
+                <i>Software Development,</i> <i>Cybersecurity</i> and{" "}
                 <i>Game Development;</i> I'm hoping to continue my path towards
                 this direction.
                 <br />I come from a multi-cultural background while having the
@@ -57,7 +57,9 @@ const About = () => {
               <FontAwesomeIcon icon={faFileCode} />
               <p data-aos="fade-up">Languages</p>
               <ul className="list-group">
-                <li data-aos="fade-up-right">Javascript</li>
+                <li data-aos="fade-up-right">JavaScript</li>
+                <li data-aos="fade-up-left">TypeScript</li>
+                <li data-aos="fade-up">Python</li>
                 <li data-aos="fade-up-left">HTML</li>
                 <li data-aos="fade-up-right">CSS</li>
                 <li data-aos="fade-up">SQL</li>
@@ -70,19 +72,16 @@ const About = () => {
               <FontAwesomeIcon icon={faLaptopCode} />
               <p data-aos="fade-up">Frameworks / Libraries</p>
               <ul className="list-group">
-                <li data-aos="fade-up-right">React</li>
-                <li data-aos="fade-up-left">Express</li>
-                <li data-aos="fade-up-right">Node</li>
+                <li data-aos="fade-up-right">ReactJS</li>
+                <li data-aos="fade-up-left">ExpressJS</li>
+                <li data-aos="fade-up-right">NodeJS</li>
+                <li data-aos="fade-up-left">Django</li>
+                <li data-aos="fade-up">Flask</li>
+                <li data-aos="fade-up-right">Redux</li>
                 <li data-aos="fade-up-left">Handlebars</li>
                 <li data-aos="fade-up-right">jQuery</li>
                 <li data-aos="fade-up-left">Semantic UI</li>
-                <li data-aos="fade-up-right">Materialize</li>
                 <li data-aos="fade-up-left">Bootstrap</li>
-                <li data-aos="fade-up-right">Moment.js</li>
-                <li data-aos="fade-up-left">Tilt.js</li>
-                <li data-aos="fade-up-right">AOS.js</li>
-                <li data-aos="fade-up-left">Email.js</li>
-                <li data-aos="fade-up-right">Chart.js</li>
               </ul>
             </div>
             <div className="col-lg text-center skill-group">
@@ -93,7 +92,14 @@ const About = () => {
                 <li data-aos="fade-up-left">Github</li>
                 <li data-aos="fade-up-right">MongoDB</li>
                 <li data-aos="fade-up-left">MySQL</li>
+                <li data-aos="fade-up">GraphQL</li>
+                <li data-aos="fade-up-left">Jest</li>
                 <li data-aos="fade-up-right">Sass</li>
+                <li data-aos="fade-up-left">Heroku</li>
+                <li data-aos="fade-up-right">AWS</li>
+                <li data-aos="fade-up-left">Postman</li>
+                <li data-aos="fade-up-right">Insomnia</li>
+                <li data-aos="fade-up-left">Figma</li>
               </ul>
             </div>
           </div>
