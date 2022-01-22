@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/kd-logo-transparent.png";
-import resume from "../assets/kemaldemirgil-cv.pdf";
+import resume from "../assets/kd-cv.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
