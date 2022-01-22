@@ -229,7 +229,6 @@
     "desc": "This is my first, fully responsive portfolio.",
     "tech": ["CSS", "HTML"],
     "img": "kdportfolio.png",
-    "github": "https://github.com/kemaldemirgil/kd-portfolio",
-    "deployed": "https://kemaldemirgil.github.io/kd-portfolio/"
+    "github": "https://github.com/kemaldemirgil/kd-portfolio"
   }
 ]

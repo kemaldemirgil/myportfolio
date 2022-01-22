@@ -59,11 +59,11 @@ const Contact = () => {
             <FontAwesomeIcon icon={faEnvelope} />
             <p className="pt-3">
               <a
-                href="mailto:kemal.demirgil@hotmail.com"
+                href="mailto:kemaldemirgil@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                kemal.demirgil@hotmail.com
+                kemaldemirgil@gmail.com
               </a>
             </p>
           </div>
