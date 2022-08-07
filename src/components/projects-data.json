@@ -223,12 +223,5 @@
     "img": "rps.png",
     "github": "https://github.com/kemaldemirgil/rock-paper-scissors",
     "deployed": "https://kemaldemirgil.github.io/rock-paper-scissors/"
-  },
-  {
-    "title": "KD Portfolio",
-    "desc": "This is my first, fully responsive portfolio.",
-    "tech": ["CSS", "HTML"],
-    "img": "kdportfolio.png",
-    "github": "https://github.com/kemaldemirgil/kd-portfolio"
   }
 ]

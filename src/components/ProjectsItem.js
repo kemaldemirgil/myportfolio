@@ -11,18 +11,14 @@ import { Image, Divider, Icon, Header } from "semantic-ui-react";
 
 const Project = (props) => (
   <div className="container-fluid project-container">
-    <Divider horizontal data-aos="zoom-in" data-aos-duration="2000">
+    <Divider horizontal data-aos="zoom-in">
       <Header as="span">
         <Icon name="file code" />
         {props.title}
       </Header>
     </Divider>
     <div className="row">
-      <div
-        className="col-lg-4 app-img"
-        data-aos="fade-down"
-        data-aos-duration="2000"
-      >
+      <div className="col-lg-4 app-img" data-aos="fade-down">
         <Image
           fluid
           label={{
@@ -35,7 +31,7 @@ const Project = (props) => (
           src={require(`../assets/project-images/${props.img}`).default}
         />
       </div>
-      <div className="col-lg-7" data-aos="fade-up" data-aos-duration="2000">
+      <div className="col-lg-7" data-aos="fade-up">
         <h1>{props.title}</h1>
         <p className="app-desc">
           <FontAwesomeIcon icon={faChevronRight} /> {props.desc}

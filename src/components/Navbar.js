@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/kd-logo-transparent.png";
-import resume from "../assets/kd-cv.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
@@ -44,14 +43,6 @@ const Navbar = () => {
             <Link className="nav-item" to="/contact">
               <li className="nav-link">Contact</li>
             </Link>
-            <a
-              href={resume}
-              className="nav-item"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <li className="nav-link">Resume</li>
-            </a>
           </ul>
         </div>
       </div>

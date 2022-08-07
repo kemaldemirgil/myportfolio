@@ -108,6 +108,7 @@ nav {
   background-size: cover;
   background-position: center;
   height: 92.9vh;
+  min-height: 95vh;
 }
 
 .main-info {
@@ -391,6 +392,7 @@ nav {
 
 .email-wrapper {
   background-color: #212529;
+  min-height: 100vh;
 }
 
 .email-wrapper .social {

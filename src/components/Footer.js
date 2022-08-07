@@ -27,9 +27,7 @@ const Footer = () => {
             <FontAwesomeIcon icon={faEnvelope} />
           </Link>
         </div>
-        <p className="copyright">
-          Created with ❤️ &amp; ☮️ by: Kemal Demirgil © 2021
-        </p>
+        <p className="copyright">Created with ❤️ &amp; ☮️</p>
       </footer>
     </div>
   );
